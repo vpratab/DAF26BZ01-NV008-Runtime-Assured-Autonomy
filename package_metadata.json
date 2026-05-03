@@ -1,0 +1,13 @@
+{
+  "topic_id": "DAF26BZ01-NV008",
+  "title": "Runtime Assured Autonomy",
+  "repo_name": "DAF26BZ01-NV008-Runtime-Assured-Autonomy",
+  "solicitation_track": "Phase I",
+  "solicitation_objective": "Develop runtime assured autonomy functions that monitor black-box autonomy outputs, determine when COAs are infeasible, incorrect, or non-optimal, and activate mitigation or reversionary behaviors.",
+  "source_basis": "DAF 26.BZ Release 1 Phase I topic language, pp. 14-17.",
+  "opening_angle": "black-box autonomy fault monitor; trust/health/proof layer; mitigation-supervisor hooks",
+  "delivery": "Rust/C++ onboard software package plus interface specification, replay/evaluation tooling, and signed evidence artifacts for runtime trust assessment.",
+  "short_pitch": "RTVLAS adapted as a black-box runtime assurance module that monitors autonomy outputs, detects infeasible or degraded decisions, and exports signed evidence for recovery and certification support.",
+  "viewer": false,
+  "phase2_transition": "Integrate with surrogate UAS mission software aligned to A-GRA, port to companion compute targets, and demonstrate real-time mitigation hooks in SIL/HIL environments."
+}

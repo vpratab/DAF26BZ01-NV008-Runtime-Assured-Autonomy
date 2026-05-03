@@ -1,0 +1,26 @@
+[
+  {
+    "id": "scenario_01_nominal_sortie",
+    "label": "Nominal Sortie",
+    "summary": "Baseline autonomy behavior with coherent timing, corridor adherence, and feasible command outputs.",
+    "mode": "nominal",
+    "input": "scenarios/scenario_01_nominal_sortie.jsonl",
+    "output": "evidence/scenario_01_nominal_sortie"
+  },
+  {
+    "id": "scenario_02_degraded_contingency",
+    "label": "Degraded Contingency Handling",
+    "summary": "Autonomy remains online but begins producing slightly stale and lower-quality solutions during a contingency replan.",
+    "mode": "degraded",
+    "input": "scenarios/scenario_02_degraded_contingency.jsonl",
+    "output": "evidence/scenario_02_degraded_contingency"
+  },
+  {
+    "id": "scenario_03_faulty_autonomy_chain",
+    "label": "Faulty Autonomy Chain",
+    "summary": "The autonomy stack emits infeasible commands and departs the assigned corridor, driving a hard reject verdict.",
+    "mode": "fault",
+    "input": "scenarios/scenario_03_faulty_autonomy_chain.jsonl",
+    "output": "evidence/scenario_03_faulty_autonomy_chain"
+  }
+]

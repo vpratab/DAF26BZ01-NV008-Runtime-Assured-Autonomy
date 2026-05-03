@@ -1,0 +1,17 @@
+{
+  "topic_id": "DAF26BZ01-NV008",
+  "title": "Runtime Assured Autonomy",
+  "scenario_name": "scenario_02_degraded_contingency",
+  "total_frames": 60,
+  "accept_frames": 30,
+  "flag_frames": 30,
+  "reject_frames": 0,
+  "min_trust_score": 0.523,
+  "final_trust_score": 0.523,
+  "first_reject_frame": null,
+  "violations_by_property": {
+    "Flight Corridor Containment": 30,
+    "Mission Solution Quality": 30,
+    "Temporal Coherence": 30
+  }
+}

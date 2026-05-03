@@ -1,0 +1,19 @@
+{
+  "topic_id": "DAF26BZ01-NV008",
+  "title": "Runtime Assured Autonomy",
+  "scenario_name": "scenario_03_faulty_autonomy_chain",
+  "total_frames": 60,
+  "accept_frames": 20,
+  "flag_frames": 0,
+  "reject_frames": 40,
+  "min_trust_score": 0.0,
+  "final_trust_score": 0.0,
+  "first_reject_frame": 20,
+  "violations_by_property": {
+    "Flight Corridor Containment": 40,
+    "Mission Solution Quality": 40,
+    "Mission Solution Validity": 40,
+    "Path Command Feasibility": 40,
+    "Temporal Coherence": 40
+  }
+}
