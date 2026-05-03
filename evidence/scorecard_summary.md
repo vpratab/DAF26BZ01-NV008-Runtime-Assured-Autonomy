@@ -1,8 +1,8 @@
 # Evidence Scorecard Summary
 
 - Topic: `DAF26BZ01-NV008 Runtime Assured Autonomy`
-- Generated: `2026-05-03T04:53:22Z`
-- Git Head: `UNCOMMITTED_SCAFFOLD`
+- Generated: `2026-05-03T04:54:52Z`
+- Git Head: `d709bcaf70054af777d40c229584227a5e50a167`
 - Scenario Pass Rate: `3/3 (100.0%)`
 - Evidence Type: `deterministic synthetic autonomy traces for submission-stage feasibility review`
 
